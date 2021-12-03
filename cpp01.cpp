@@ -1,15 +1,31 @@
 ﻿#include <iostream>
-#include <vector>
+#include <typeinfo>
+
+enum Color
+{
+	COLOR_BLACK,
+	COLOR_RED,
+	COLOR_BLUE,
+	COLOR_Red,
+	COLOR_GREEN,
+	COLOR_SKYBLUE,
+};
+
+enum Feeling
+{
+	HAPPY,
+	JOY,
+	TIRED,
+	BLUE,
+};
 
 int main()
 {
-	std::vector<int> arr = {1, 2, 3, 4, 5};
-	for (auto &itr : arr)
-		std::cout << itr << " ";
-	std::cout << std::endl;
+	using namespace std;
 
-	std::cout << arr[1] << std::endl;
-	std::cout << arr.at(1) << std::endl;
+	Color my_color = COLOR_BLACK;
+
+	cout << my_color << " " << COLOR_BLACK << endl;
 
 	return 0;
 }
