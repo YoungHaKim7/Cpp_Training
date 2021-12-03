@@ -8,5 +8,8 @@ int main()
 		std::cout << itr << " ";
 	std::cout << std::endl;
 
+	std::cout << arr[1] << std::endl;
+	std::cout << arr.at(1) << std::endl;
+
 	return 0;
 }
