@@ -1,12 +1,33 @@
 ﻿#include <iostream>
-#include "std_lib_facilities.h"
+
 using namespace std;
+
 int main()
 {
-	cout << "성과 이름을 입력하세요\n ";
-	string first;
-	string second;
-	cin >> first >> second;
-	string name = first + ' ' + second;
-	cout << "안녕하세요, " << name << '\n';
+	int number = 0;
+	int high;
+	int low;
+	int counter = 0;
+
+	while (number != -99)
+	{
+		cout << " Please enter whole numbers. Enter -99 to quit entering \n ->  ";
+		cin >> number;
+
+		if (counter == 0)
+		{
+			high = number;
+			low = number;
+		}
+		else
+		{
+			if (number > high && number != -99)
+				high = number;
+			else if (number < low && number != -99)
+				low = number;
+		}
+		counter++;
+	}
+	cout << " The highest number you entered was " << high << endl;
+	cout << " The lowerst number you entered was " << low << endl;
 }
