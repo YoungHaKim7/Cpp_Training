@@ -2,32 +2,160 @@
 
 using namespace std;
 
+double input, output;
+
+void kmToOthers()
+{
+	system("clear");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n Select a desired option: ";
+	cout << "\n\t\t\t\t1. Km --> Miles : ";
+	cout << "\n\t\t\t\t2. Km --> Feet : ";
+	cout << "\n\t\t\t\t3. Km --> Inches : ";
+	int opt;
+	cin >> opt;
+	switch (opt)
+	{
+	case 1:
+		system("clear");
+		cout << "\n\n\n\n\n\n\n\t\t\t\t Enter Value in Kilometers: ";
+		input = opt;
+		cin >> input;
+		output = input * 0.62137;
+		cout << "\n\n\t\t\t\t" << input << " km = " << output << " miles ";
+
+		break;
+	case 2:
+		system("clear");
+		cout << "\n\n\n\n\n\n\n\t\t\t\t Enter Value in Kilometers: ";
+		input = opt;
+		cin >> input;
+		output = input * 3280.84;
+		cout << "\n\n\t\t\t\t" << input << " km = " << output << " Feet ";
+
+		break;
+	case 3:
+		system("clear");
+		cout << "\n\n\n\n\n\n\n\t\t\t\t Enter Value in Kilometers: ";
+		input = opt;
+		cin >> input;
+		output = input * 39370;
+		cout << "\n\n\t\t\t\t" << input << " km = " << output << " Inches ";
+
+		break;
+	}
+}
+
+void milesToOthers()
+{
+	system("clear");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n Select a desired option: ";
+	cout << "\n\t\t\t\t1. Miles --> Km : ";
+	cout << "\n\t\t\t\t2. Miles --> Feet : ";
+	cout << "\n\t\t\t\t3. Miles --> Inches : ";
+	int opt;
+	cin >> opt;
+	switch (opt)
+	{
+	case 1:
+		system("clear");
+		cout << "\n\n\n\n\n\n\n\t\t\t\t Enter Value in Miles: ";
+		input = opt;
+		cin >> input;
+		output = input * 1.6093;
+		cout << "\n\n\t\t\t\t" << input << " Miles = " << output << " Km ";
+
+		break;
+	case 2:
+		system("clear");
+		cout << "\n\n\n\n\n\n\n\t\t\t\t Enter Value in Miles: ";
+		input = opt;
+		cin >> input;
+		output = input * 5280;
+		cout << "\n\n\t\t\t\t" << input << " Miles = " << output << " Feet ";
+
+		break;
+	case 3:
+		system("clear");
+		cout << "\n\n\n\n\n\n\n\t\t\t\t Enter Value in Miles: ";
+		input = opt;
+		cin >> input;
+		output = input * 63360;
+		cout << "\n\n\t\t\t\t" << input << " Miles = " << output << " Inches ";
+
+		break;
+	}
+}
+
+void feetToOthers()
+{
+	system("clear");
+	cout << "\n\n\n\n\n\n\n\n\n\n\n\n Select a desired option: ";
+	cout << "\n\t\t\t\t1. Feet --> Km : ";
+	cout << "\n\t\t\t\t2. Feet --> Miles : ";
+	cout << "\n\t\t\t\t3. Feet --> Inches : ";
+	int opt;
+	cin >> opt;
+	switch (opt)
+	{
+	case 1:
+		system("clear");
+		cout << "\n\n\n\n\n\n\n\t\t\t\t Enter Value in Feet: ";
+		input = opt;
+		cin >> input;
+		output = input * 0.000304;
+		cout << "\n\n\t\t\t\t" << input << " Feet = " << output << " Km ";
+
+		break;
+	case 2:
+		system("clear");
+		cout << "\n\n\n\n\n\n\n\t\t\t\t Enter Value in Feet: ";
+		input = opt;
+		cin >> input;
+		output = input * 0.000189;
+		cout << "\n\n\t\t\t\t" << input << " Feet = " << output << " Miles ";
+
+		break;
+	case 3:
+		system("clear");
+		cout << "\n\n\n\n\n\n\n\t\t\t\t Enter Value in Feet: ";
+		input = opt;
+		cin >> input;
+		output = input * 12;
+		cout << "\n\n\t\t\t\t" << input << " Feet = " << output << " Inches ";
+
+		break;
+	}
+}
+
 int main()
 {
-	int number = 0;
-	int high;
-	int low;
-	int counter = 0;
-
-	while (number != -99)
+start:
+	cout << "\n\n\n\n\t\t\t Your Value is is :";
+	cout << "\n\t\t\t\t1.Km";
+	cout << "\n\t\t\t\t2.Miles";
+	cout << "\n\t\t\t\t3.Feet";
+	int sele;
+	cin >> sele;
+	switch (sele)
 	{
-		cout << " Please enter whole numbers. Enter -99 to quit entering \n ->  ";
-		cin >> number;
-
-		if (counter == 0)
-		{
-			high = number;
-			low = number;
-		}
-		else
-		{
-			if (number > high && number != -99)
-				high = number;
-			else if (number < low && number != -99)
-				low = number;
-		}
-		counter++;
+	case 1:
+		kmToOthers();
+		break;
+	case 2:
+		milesToOthers();
+		break;
+	case 3:
+		feetToOthers();
+		break;
 	}
-	cout << " The highest number you entered was " << high << endl;
-	cout << " The lowerst number you entered was " << low << endl;
+	cout << "\n\n\t\t\t\tPress 'E' to Exit!";
+	char exit;
+	cin >> exit;
+	if (exit == 'E' || 'e')
+	{
+		system("clear");
+		goto start;
+	}
+	system("pause");
+	return 0;
 }
