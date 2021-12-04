@@ -8,6 +8,10 @@ int main()
 	vector<int> myVector;
 
 	myVector.push_back(3);
+	myVector.push_back(7);
+	myVector.push_back(4);
+	myVector.push_back(12);
+	myVector.push_back(9);
 
 	cout << "Vector: ";
 
