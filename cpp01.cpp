@@ -1,31 +1,31 @@
-﻿#include <iostream>
-#include <typeinfo>
+﻿#include <vector>
+#include <iostream>
 
-enum Color
-{
-	COLOR_BLACK,
-	COLOR_RED,
-	COLOR_BLUE,
-	COLOR_Red,
-	COLOR_GREEN,
-	COLOR_SKYBLUE,
-};
-
-enum Feeling
-{
-	HAPPY,
-	JOY,
-	TIRED,
-	BLUE,
-};
+using namespace std;
 
 int main()
 {
-	using namespace std;
+	vector<string> list;
 
-	Color my_color = COLOR_BLACK;
+	cout << "Please enter the names, press Q to quit: " << endl;
 
-	cout << my_color << " " << COLOR_BLACK << endl;
+	string name = "x";
+
+	while (name != "Q")
+	{
+		cin >> name;
+		list.push_back(name);
+	}
+
+	cout << "You have entered " << list.size() << " names: " << endl;
+
+	for (int i = 0; i < list.size(); i++)
+	{
+		cout << list[i] << endl;
+	}
 
 	return 0;
 }
+
+// .push_back()
+// .pop_back()
