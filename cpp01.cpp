@@ -10,12 +10,8 @@ int main()
 		v.push_back(i);
 
 	cout << "Size : " << v.size() << endl;
-	cout << "Capacity : " << v.capacity() << endl;
-	cout << "Max-size : " << v.max_size() << endl;
+	cout << "Last element : " << v.back() << endl;
+	cout << "Element at 3rd index :" << v.at(3) << endl;
 
-	if (v.empty())
-		cout << "Vector is empty\n";
-	else
-		cout << "Vector is not empty\n";
 	return 0;
 }
