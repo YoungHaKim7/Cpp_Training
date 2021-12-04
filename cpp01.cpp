@@ -5,29 +5,17 @@ using namespace std;
 
 int main()
 {
-	vector<string> list;
+	vector<int> v;
+	for (int i = 1; i <= 5; i++)
+		v.push_back(i);
 
-	cout << "Please enter the names, press Q to quit: " << endl;
+	cout << "Size : " << v.size() << endl;
+	cout << "Capacity : " << v.capacity() << endl;
+	cout << "Max-size : " << v.max_size() << endl;
 
-	string name = "x";
-
-	while (name != "Q" && name != "q")
-	{
-		cin >> name;
-		list.push_back(name);
-	}
-
-	list.pop_back();
-
-	cout << "You have entered " << list.size() << " names: " << endl;
-
-	for (int i = 0; i < list.size(); i++)
-	{
-		cout << list[i] << endl;
-	}
-
+	if (v.empty())
+		cout << "Vector is empty\n";
+	else
+		cout << "Vector is not empty\n";
 	return 0;
 }
-
-// .push_back()
-// .pop_back()
