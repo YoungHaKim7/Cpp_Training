@@ -5,13 +5,18 @@ using namespace std;
 
 int main()
 {
-	vector<int> v;
-	for (int i = 1; i <= 5; i++)
-		v.push_back(i);
+	vector<int> myVector;
 
-	cout << "Size : " << v.size() << endl;
-	cout << "Last element : " << v.back() << endl;
-	cout << "Element at 3rd index :" << v.at(3) << endl;
+	myVector.push_back(3);
+
+	cout << "Vector: ";
+
+	for (unsigned int i = 0; i < myVector.size(); i++)
+		cout << myVector[i] << " ";
+	{
+	}
+
+	cout << endl;
 
 	return 0;
 }
