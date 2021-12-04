@@ -16,8 +16,17 @@ int main()
 	cout << "Vector: ";
 
 	for (unsigned int i = 0; i < myVector.size(); i++)
-		cout << myVector[i] << " ";
 	{
+		cout << myVector[i] << " ";
+	}
+
+	myVector.insert(myVector.begin(), 5);
+
+	cout << "Vector: ";
+
+	for (unsigned int i = 0; i < myVector.size(); i++)
+	{
+		cout << myVector[i] << " ";
 	}
 
 	cout << endl;
