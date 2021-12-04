@@ -20,7 +20,7 @@ int main()
 		cout << myVector[i] << " ";
 	}
 
-	myVector.insert(myVector.begin(), 5);
+	myVector.insert(myVector.begin() + 3, 5);
 
 	cout << "Vector: ";
 
