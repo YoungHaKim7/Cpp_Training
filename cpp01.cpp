@@ -49,6 +49,19 @@ int main()
 			 << "Is Not Empty";
 	}
 
+	myVector.clear();
+
+	if (myVector.empty())
+	{
+		cout << endl
+			 << "Is Empty!";
+	}
+	else
+	{
+		cout << endl
+			 << "Is Not Empty";
+	}
+
 	cout << endl;
 
 	return 0;
