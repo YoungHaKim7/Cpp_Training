@@ -11,11 +11,13 @@ int main()
 
 	string name = "x";
 
-	while (name != "Q")
+	while (name != "Q" && name != "q")
 	{
 		cin >> name;
 		list.push_back(name);
 	}
+
+	list.pop_back();
 
 	cout << "You have entered " << list.size() << " names: " << endl;
 
