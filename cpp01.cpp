@@ -1,21 +1,38 @@
 ﻿#include <iostream>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
 int main()
 {
-	int a;
-	int b;
-	int sum;
+	vector<int> a;
+	int n, x;
+	cout << "Please enter a number to convert. : ";
+	cin >> n;
+	cout << endl;
 
-	cout << "Enter a number hoss! \n";
-	cin >> a;
+	for (int i = 0; i < n; i++)
+	{
+		cin >> x;
+		a.push_back(x);
+	}
 
-	cout << "Enter another number \n";
-	cin >> b;
+	for (int i = 0; i < n; i++)
+		cout << a[i] << " ";
+	cout << endl;
 
-	sum = a + b;
-	cout << "the sum of those numbers is " << sum << endl;
+	sort(a.begin(), a.end());
+
+	for (int i = 0; i < n; i++)
+		cout << a[i] << " ";
+	cout << endl;
+
+	sort(a.begin(), a.end(), greater<int>());
+
+	for (int i = 0; i < n; i++)
+		cout << a[i] << " ";
+	cout << endl;
 
 	return 0;
 }
