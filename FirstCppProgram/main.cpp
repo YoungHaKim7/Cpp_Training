@@ -1,11 +1,12 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello World in C++20" << std::endl;
+    int firstNumber = 12;
+    int secondNumber = 9;
 
-    // Run time error
-    int value = 7/0;
-    std::cout << "value : " << value << std::endl;
+    int sum = firstNumber + secondNumber;
+
+    std::cout << "The sum of the two numbers is : " << sum << std::endl;
 
     return 0;
 }
