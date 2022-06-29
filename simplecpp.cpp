@@ -1,11 +1,18 @@
 #include <iostream>
 #include <thread>
+
 using namespace std;
 
-void hello() { cout << "Hello I am thread \n"; }
+void threadFn(int value) {
+  cout << "I am inside a thread function" << endl;
+  cout << "Value => " << value++ << endl;
+}
 
-int main(int argc, char *argv[]) {
-  thread t(hello);
-  t.join();
+int main() {
+  int localvalue = 100;
+  thread t1{threadFn, localvalue};
+
+  t1.join();
+  cout << "Value in Main Thread => " << localvalue << endl;
   return 0;
 }
