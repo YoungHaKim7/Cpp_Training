@@ -33,3 +33,26 @@ g++ -std=c++2a main.pp
 ```
 chmod +x build.sh
 ```
+
+# cpp 17 compile & debug
+
+```
+$ g++ -Wall -Wextra -std=c++17 main.cpp -o main
+
+$ clang++ -Wall -Wextra -std=c++17 main.cpp -o main
+
+```
+
+build.sh
+
+```
+#!/bin/bash
+
+clang++ -Wall -Wextra -std=c++17 main.cpp -o main
+```
+
+- 28분 29초 Back to Basics: Debugging in C++ - Mike Shah - CppCon 2022
+
+https://youtu.be/YzIBwqWC6EM
+
+출처: https://economiceco.tistory.com/15424 [경제PLUS:티스토리]
