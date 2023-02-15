@@ -62,3 +62,8 @@ https://youtu.be/YzIBwqWC6EM
 # c++ algorithm study
 
 https://github.com/jungeu1509/Algorithm_study
+
+
+# Awesome modern c++
+
+https://github.com/rigtorp/awesome-modern-cpp
