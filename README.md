@@ -2,7 +2,7 @@
 
 Training
 
-  - C++ Programming Course - Beginner to Advanced
+  - C++ Programming Course - Beginner to Advanced | freeCodeCamp.org
   
     - https://youtu.be/8jLOx1hD3_o
 
