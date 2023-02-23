@@ -2,6 +2,10 @@
 
 Training
 
+  - C++ Programming Course - Beginner to Advanced
+  
+    - https://youtu.be/8jLOx1hD3_o
+
 ## Source
 
 [Best Hindi Videos For Learning Programming : CodeWithHarry](https://www.youtube.com/watch?v=j8nAHeVKL08&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL)
