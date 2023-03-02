@@ -1,3 +1,13 @@
+# 국내 C++ 무료 강좌 (모두의 C++) 
+
+https://modoocode.com/135
+
+# 구글의 C++ 가이드 라인
+
+https://google.github.io/styleguide/cppguide.html
+
+
+
 # Cpp_Training
 
 Training
