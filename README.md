@@ -95,4 +95,9 @@ https://itnext.io/c-20-coroutines-complete-guide-7c3fc08db89d?gi=b495cc70f832
 https://github.com/HappyCerberus/article-cpp20-coroutines
 
 
+# C++❤ A modern formatting library
+
+https://github.com/fmtlib/fmt
+
+
 
