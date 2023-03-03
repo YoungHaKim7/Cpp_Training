@@ -1,8 +1,6 @@
 #include <iostream>
 #include "MergeSort.h"
 
-using namespace std;
-
 MergeSort::MergeSort()
 {
     list = new int[1];
@@ -44,6 +42,6 @@ main()
     int list[] = {1,2,3,4};
     int list_len = sizeof(list)/sizeof(int);
     MergeSort ms = MergeSort(list, list_len);
-    cout << ms << endl;
-    cout << "hello world" << endl;
+    std::cout << ms << std::endl;
+    std::cout << "hello world" << std::endl;
 }
