@@ -6,7 +6,13 @@ https://modoocode.com/135
 
 https://google.github.io/styleguide/cppguide.html
 
+# MicroSoft 설명서
 
+https://learn.microsoft.com/ko-kr/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=msvc-170
+
+- English Ver.
+
+  - test
 
 # Cpp_Training
 
