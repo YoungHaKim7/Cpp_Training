@@ -12,7 +12,7 @@ https://learn.microsoft.com/ko-kr/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=ms
 
 - English Ver.
 
-  - test
+  - https://learn.microsoft.com/en-us/cpp/cpp/welcome-back-to-cpp-modern-cpp?view=msvc-170
 
 # Cpp_Training
 
