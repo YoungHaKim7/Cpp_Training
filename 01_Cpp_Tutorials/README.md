@@ -6,7 +6,15 @@ https://riptutorial.com/Download/cplusplus.pdf
 
 <br>
 
-# 02_cpp_modocode_training
+# 02 C++.com doc tutorial
+
+https://cplusplus.com/doc/tutorial/
+
+<hr>
+
+<br>
+
+# 03_cpp_modocode_training
 
 # Source(C , C++ , Algorithm 다 있다.)
 
