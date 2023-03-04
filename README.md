@@ -1,3 +1,7 @@
+C++ Core Guidelines - edt.: Bjarne Stroustrup, Herb Sutter
+
+https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md
+
 # Compilers
 
 Use every available and reasonable set of warning options. Some warning options only work with optimizations enabled, or work better the higher the chosen level of optimization is, for example 
