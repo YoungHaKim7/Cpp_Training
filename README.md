@@ -8,6 +8,14 @@
   
     - https://www.stroustrup.com/JSF-AV-rules.pdf
 
+# Learning C++ eBook - Compiled from StackOverflow Documentation (PDF)
+
+https://riptutorial.com/Download/cplusplus.pdf
+
+<br>
+
+<hr>
+
 # Compilers
 
 Use every available and reasonable set of warning options. Some warning options only work with optimizations enabled, or work better the higher the chosen level of optimization is, for example 
