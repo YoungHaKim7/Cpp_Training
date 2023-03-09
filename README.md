@@ -5,6 +5,9 @@ set tabstop=2
 set shiftwidth=2
 ```
 
+# Useful resources | cppreference
+
+https://en.cppreference.com/w/cpp/links
 
 # Cpp : Bjarne Stroustrup
 
