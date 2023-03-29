@@ -152,6 +152,10 @@ g++ -std=c++2a main.pp
 chmod +x build.sh
 ```
 
+- how to use c++20 / g++ -std=c++11 -o test test.cpp (build.sh❤️파일 만드는법)
+
+  - https://economiceco.tistory.com/12470
+
 # cpp 17 compile & debug
 
 ```
