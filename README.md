@@ -156,6 +156,28 @@ chmod +x build.sh
 
   - https://economiceco.tistory.com/12470
 
+```
+g++ -std=c++20
+
+
+
+// C++20 기능은 GCC 8부터 사용할 수 있습니다.
+
+// C++20 지원을 활성화하려면 명령줄 매개변수를 추가하세요.
+
+-std=c++20
+
+// G++ 9 이상 사용
+
+-std=c++2a
+
+// 또는 C++20 기능 외에 GNU 확장을 활성화하려면 다음을 추가하십시오.
+
+-std=gnu++20
+
+ 
+```
+
 # cpp 17 compile & debug
 
 ```
