@@ -5,6 +5,12 @@ set tabstop=2
 set shiftwidth=2
 ```
 
+# Microsoft C++, C, and Assembler documentation
+
+- Learn how to use C++, C, and assembly language to develop applications, services, and tools for your platforms and devices.
+
+https://learn.microsoft.com/en-us/cpp/?view=msvc-170
+
 # Useful resources | cppreference
 
 https://en.cppreference.com/w/cpp/links
