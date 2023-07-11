@@ -5,6 +5,12 @@ set tabstop=2
 set shiftwidth=2
 ```
 
+<hr>
+
+# C++ Design Patterns: From C++03 to C++17 - Fedor Pikus - CppCon 2019
+
+https://youtu.be/MdtYi0vvct0
+
 # Microsoft C++, C, and Assembler documentation
 
 - Learn how to use C++, C, and assembly language to develop applications, services, and tools for your platforms and devices.
