@@ -11,6 +11,12 @@ set shiftwidth=2
 
 https://youtu.be/MdtYi0vvct0
 
+# Reflect *this!: Design and Implementation of a Mixin Library with Static Reflection - Andy Soffer
+
+https://youtu.be/kFChd-RrSP8
+
+<hr>
+
 # Microsoft C++, C, and Assembler documentation
 
 - Learn how to use C++, C, and assembly language to develop applications, services, and tools for your platforms and devices.
