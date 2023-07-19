@@ -115,6 +115,11 @@ https://github.com/cpp-best-practices/cppbestpractices/blob/master/02-Use_the_To
 
 <br>
 
+# C++ Concurrency vs Parallelism ~~~~~~~~~~
+
+- CppCon 2017: Fedor Pikus “C++ atomics, from basic to advanced. What do they really do?”
+  - https://youtu.be/ZQFzMfHIxng
+
 # C++ Tutorial ~~~~~~~~~~~~~~~~~~~~~~~
 
 - C++ From Scratch | CoffeeBeforeArch
