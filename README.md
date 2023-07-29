@@ -27,6 +27,10 @@ https://learn.microsoft.com/en-us/cpp/?view=msvc-170
 
 https://en.cppreference.com/w/cpp/links
 
+# C++ 98/11/14 manual pages for Linux/MacOS 
+
+https://github.com/aitjcize/cppman
+
 # Cpp : Bjarne Stroustrup
 
   - C++ Core Guidelines - edt.: Bjarne Stroustrup, Herb Sutter
