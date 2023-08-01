@@ -1,3 +1,11 @@
+# 31(hr) C++ Programming Course - Beginner to Advanced | freeCodeCamp.org
+
+- https://youtu.be/8jLOx1hD3_o
+
+<hr>
+
+
+
 # 01 Learning C++ eBook - Compiled from StackOverflow Documentation (PDF)
 
 https://riptutorial.com/Download/cplusplus.pdf
