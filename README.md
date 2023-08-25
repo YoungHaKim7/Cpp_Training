@@ -17,6 +17,13 @@ https://youtu.be/kFChd-RrSP8
 
 <hr>
 
+# 구글 differential-privacy
+
+- Google's differential privacy libraries.
+
+  - https://github.com/google/differential-privacy
+
+
 # Microsoft C++, C, and Assembler documentation
 
 - Learn how to use C++, C, and assembly language to develop applications, services, and tools for your platforms and devices.
