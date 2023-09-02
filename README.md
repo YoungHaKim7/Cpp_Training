@@ -7,6 +7,16 @@ set shiftwidth=2
 
 <hr>
 
+# Generators, Coroutines and Other Brain Unrolling Sweetness - Adi Shavit - CppCon 2019
+
+https://youtu.be/qYHDERleSL8?si=iyod9wk7aMVcnk0r
+
+# coroutines(c++)
+
+https://gcc.gnu.org/wiki/cxx-coroutines
+
+<hr>
+
 # C++ Design Patterns: From C++03 to C++17 - Fedor Pikus - CppCon 2019
 
 https://youtu.be/MdtYi0vvct0
