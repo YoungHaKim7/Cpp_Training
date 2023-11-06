@@ -33,6 +33,14 @@ echo "\x09\x09mv *.out ./out" >> Makefile &&
 echo "\x09\x09mv *.cpp ./out" >> Makefile &&
 echo "" >> Makefile &&
 
+echo "mem:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out" >> Makefile &&
+echo "\x09\x09cp -rf ./src/main.cpp ./." >> Makefile &&
+echo "\x09\x09g++ -fsanitize=address -g3 -std=c++2b" >> Makefile &&
+echo "\x09\x09mv *.out ./out" >> Makefile &&
+echo "\x09\x09mv *.cpp ./out" >> Makefile &&
+echo "valgrind --leak-check=full ./out/a.out" >> Makefile &&
+echo "" >> Makefile &&
+
 echo "obj:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out" >> Makefile &&
 echo "\x09\x09g++ -std=c++2b -Wall -Wextra -ggdb -c ./src/main.cpp" >> Makefile &&
 echo "\x09\x09mv *.o ./out" >> Makefile &&
