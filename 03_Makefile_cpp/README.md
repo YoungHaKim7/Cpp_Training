@@ -95,3 +95,7 @@ https://github.com/cpp-best-practices/cppbestpractices/blob/master/02-Use_the_To
 - clang++
 https://stackoverflow.com/questions/54521402/locating-iostream-in-clang-fatal-error-iostream-file-not-found/58338868#58338868
 https://askubuntu.com/questions/1449769/clang-cannot-find-iostream
+
+
+- sanitizer
+  - https://doc.rust-lang.org/nightly/unstable-book/compiler-flags/sanitizer.html
