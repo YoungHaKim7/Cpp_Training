@@ -9,8 +9,8 @@ set shiftwidth=2
 
 # 내가 정리하는 github
 
-https://github.com/YoungHaKim7/Cpp_Training
-https://github.com/YoungHaKim7/cpp23_project
+- https://github.com/YoungHaKim7/Cpp_Training
+- https://github.com/YoungHaKim7/cpp23_project
 
 # Generators, Coroutines and Other Brain Unrolling Sweetness - Adi Shavit - CppCon 2019
 
