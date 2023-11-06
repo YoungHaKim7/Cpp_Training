@@ -8,7 +8,7 @@ echo "b:\xa\x09\x09mkdir out" >> Makefile &&
 echo "\x09\x09g++ -c -pthread -lm -Wall -Wextra -ggdb src/main.cpp -o out/main" >> Makefile &&
 echo "" >> Makefile &&
 
-echo "l:\xa\x09\x09mkdir out" >> Makefile &&
+echo "ll:\xa\x09\x09mkdir out" >> Makefile &&
 echo "\x09\x09clang++ -S -emit-llvm src/main.cpp -o out/main" >> Makefile &&
 echo "" >> Makefile &&
 
