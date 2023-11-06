@@ -30,7 +30,7 @@ echo "" >> Makefile &&
 echo "\x09\x09echo \x22int main(int argc, char **argv) {\x22 >> src/main.cpp" >> Makefile &&
 echo "\x09\x09echo \x22\x09std::cout<< \\\"Hello C++ \\\" << std::endl;\x22 >> src/main.cpp" >> Makefile &&
 echo "\x09\x09echo \x22\x09return 0;\x22 >> src/main.cpp" >> Makefile &&
-echo "\x09\x09echo \x22\x09}\x22 >> src/main.cpp" >> Makefile &&
+echo "\x09\x09echo \x22}\x22 >> src/main.cpp" >> Makefile &&
 
 echo "# Result\xa\xa\x60\x60\x60\xa\xa\x60\x60\x60" >> README.md &&
 
