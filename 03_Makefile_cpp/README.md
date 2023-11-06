@@ -6,10 +6,10 @@ echo "\x09\x09./out/main\xa" >> Makefile &&
 echo "b:\xa\x09\x09g++ -c -pthread -lm -Wall -Wextra -ggdb src/main.cpp -o out/main" >> Makefile &&
 echo "" >> Makefile &&
 
-echo "l:\xa\x09\x09g++ -S -emit-llvm src/main.cpp -o out/" >> Makefile &&
+echo "l:\xa\x09\x09g++ -S -emit-llvm src/main.cpp -o out/main" >> Makefile &&
 echo "" >> Makefile &&
 
-echo "as:\xa\x09\x09g++ -Wall -save-temps main.cpp -o out/" >> Makefile &&
+echo "as:\xa\x09\x09g++ -Wall -save-temps main.cpp -o out/main" >> Makefile &&
 echo "" >> Makefile &&
 
 echo "clean:" >> Makefile &&
