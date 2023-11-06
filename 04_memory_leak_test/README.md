@@ -1,4 +1,5 @@
-# Result
+# Source
+http://gavinchou.github.io/experience/summary/syntax/gcc-address-sanitizer/
 
 ./a.out heap_leak
 ./a.out heap_buffer_overflow
