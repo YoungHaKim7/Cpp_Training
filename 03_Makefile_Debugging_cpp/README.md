@@ -48,7 +48,7 @@ echo "\x09\x09objdump --disassemble -S -C ./out/main.o" >> Makefile &&
 echo "" >> Makefile &&
 
 echo "clean:" >> Makefile &&
-echo "\x09\x09rm -rf ./out *.out" >> Makefile &&
+echo "\x09\x09rm -rf ./out *.out ./src/*.out" >> Makefile &&
 echo "" >> Makefile &&
 echo "init:\xa\x09\x09mkdir src" >> Makefile &&
 echo "\x09\x09echo \x22#include <iostream>\x22 >> src/main.cpp" >> Makefile &&
