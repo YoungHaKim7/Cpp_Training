@@ -16,6 +16,8 @@ echo "b:\xa\x09\x09g++ -c -pthread -lm -Wall -Wextra -ggdb src/main.cpp -o out/m
 
 echo "l:\xa\x09\x09g++ -S -emit-llvm src/main.cpp -o out/" >> Makefile &&
 
+echo "as:\xa\x09\x09g++ -Wall -save-temps main.cpp -o out/"
+
 echo "clean:" >> Makefile &&
 echo "\x09\x09rm -rf ./out\xa" >> Makefile &&
 echo "init:\xa\x09\x09mkdir src" >> Makefile &&
