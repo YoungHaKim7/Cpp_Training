@@ -4,16 +4,17 @@
 echo "r:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out\xa\x09\x09g++ -pthread -lm -Wall -Wextra -ggdb -o out/main src/main.cpp" >> Makefile &&
 echo "\x09\x09./out/main\xa" >> Makefile &&
 
-echo "b:\xa\x09\x09mkdir src" >> Makefile &&
+echo "b:\xa\x09\x09mkdir out" >> Makefile &&
 echo "\x09\x09g++ -c -pthread -lm -Wall -Wextra -ggdb src/main.cpp -o out/main" >> Makefile &&
 echo "" >> Makefile &&
 
-echo "l:\xa\x09\x09mkdir src" >> Makefile &&
+echo "l:\xa\x09\x09mkdir out" >> Makefile &&
 echo "\x09\x09clang++ -S -emit-llvm src/main.cpp -o out/main" >> Makefile &&
 echo "" >> Makefile &&
 
-echo "as:\xa\x09\x09mkdir src" >> Makefile &&
-echo "\x09\x09g++ -Wall -save-temps main.cpp -o out/main" >> Makefile &&
+echo "as:\xa\x09\x09mkdir out" >> Makefile &&
+echo "\x09\x09cp -rf ./src ./out" >> Makefile &&
+echo "\x09\x09g++ -Wall -save-temps ./out/main.cpp" >> Makefile &&
 echo "" >> Makefile &&
 
 echo "clean:" >> Makefile &&
