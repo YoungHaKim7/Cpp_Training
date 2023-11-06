@@ -15,6 +15,10 @@ echo "" >> Makefile &&
 echo "as:\xa\x09\x09mkdir out" >> Makefile &&
 echo "\x09\x09cp -rf ./src ./out" >> Makefile &&
 echo "\x09\x09g++ -Wall -save-temps ./out/main.cpp" >> Makefile &&
+echo "\x09\x09mv *.ii ./out" >> Makefile &&
+echo "\x09\x09mv *.o ./out" >> Makefile &&
+echo "\x09\x09mv *.s ./out" >> Makefile &&
+echo "\x09\x09mv *.out ./out" >> Makefile &&
 echo "" >> Makefile &&
 
 echo "clean:" >> Makefile &&
