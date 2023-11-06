@@ -30,6 +30,7 @@ echo "fsan:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out" >> Makefile &&
 echo "\x09\x09cp -rf ./src/main.cpp ./." >> Makefile &&
 echo "\x09\x09g++ -ggdb -fsanitize=address -fno-omit-frame-pointer -static-libstdc++ -static-libasan -lrt main.cpp" >> Makefile &&
 echo "\x09\x09mv *.out ./out" >> Makefile &&
+echo "\x09\x09mv *.cpp ./out" >> Makefile &&
 echo "" >> Makefile &&
 
 echo "obj:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out" >> Makefile &&
