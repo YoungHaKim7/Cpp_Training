@@ -26,6 +26,11 @@ echo "\x09\x09mv *.s ./out" >> Makefile &&
 echo "\x09\x09mv *.out ./out" >> Makefile &&
 echo "" >> Makefile &&
 
+echo "fsan:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out" >> Makefile &&
+echo "\x09\x09cp -rf ./src/main.cpp ./." >> Makefile &&
+echo "\x09\x09clang++ -g -fsanitize=address -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -L /usr/lib/gcc/x86_64-linux-gnu/11 main.cpp" >> Makefile &&
+echo "" >> Makefile &&
+
 echo "obj:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out" >> Makefile &&
 echo "\x09\x09g++ -std=c++2b -Wall -Wextra -ggdb -c ./src/main.cpp" >> Makefile &&
 echo "\x09\x09mv *.o ./out" >> Makefile &&
