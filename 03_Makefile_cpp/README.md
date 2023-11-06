@@ -9,7 +9,7 @@ echo "\x09\x09g++ -c -pthread -lm -Wall -Wextra -ggdb src/main.cpp -o out/main" 
 echo "" >> Makefile &&
 
 echo "ll:\xa\x09\x09mkdir out" >> Makefile &&
-echo "\x09\x09clang++ -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -L /usr/lib/gcc/x86_64-linux-gnu/11 -S -emit-llvm src/main.cpp -o out/main" >> Makefile &&
+echo "\x09\x09clang++ -S -emit-llvm -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -L /usr/lib/gcc/x86_64-linux-gnu/11 src/main.cpp -o out/main" >> Makefile &&
 echo "" >> Makefile &&
 
 echo "as:\xa\x09\x09mkdir out" >> Makefile &&
