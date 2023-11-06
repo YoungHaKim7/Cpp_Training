@@ -18,7 +18,7 @@ echo "\x09\x09rm -rf *.out" >> Makefile &&
 echo "" >> Makefile &&
 
 echo "as:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out" >> Makefile &&
-echo "\x09\x09cp -rf ./src ./out" >> Makefile &&
+echo "\x09\x09cp -rf ./src/*.cpp ./out/." >> Makefile &&
 echo "\x09\x09g++ -Wall -save-temps ./out/main.cpp" >> Makefile &&
 echo "\x09\x09mv *.ii ./out" >> Makefile &&
 echo "\x09\x09mv *.o ./out" >> Makefile &&
