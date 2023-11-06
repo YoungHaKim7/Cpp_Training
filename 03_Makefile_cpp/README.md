@@ -9,7 +9,7 @@ echo "\x09\x09g++ -c -pthread -lm -Wall -Wextra -ggdb src/main.cpp -o out/main" 
 echo "" >> Makefile &&
 
 echo "ll:\xa\x09\x09mkdir out" >> Makefile &&
-echo "\x09\x09clang++ -S -emit-llvm src/main.cpp -o out/main" >> Makefile &&
+echo "\x09\x09clang++ -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -L /usr/lib/gcc/x86_64-linux-gnu/11 -S -emit-llvm src/main.cpp -o out/main" >> Makefile &&
 echo "" >> Makefile &&
 
 echo "as:\xa\x09\x09mkdir out" >> Makefile &&
@@ -79,3 +79,8 @@ echo "*.app\xa" >> .gitignore
 ```
 
 https://github.com/cpp-best-practices/cppbestpractices/blob/master/02-Use_the_Tools_Available.md
+
+
+- clang++
+https://stackoverflow.com/questions/54521402/locating-iostream-in-clang-fatal-error-iostream-file-not-found/58338868#58338868
+https://askubuntu.com/questions/1449769/clang-cannot-find-iostream
