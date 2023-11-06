@@ -7,6 +7,17 @@ http://gavinchou.github.io/experience/summary/syntax/gcc-address-sanitizer/
 # ./a.out heap_leak
 
 ```
+$ ./out/a.out
+
+container_deferred
+stack_buffer_overflow
+heap_buffer_overflow
+heap_leak
+global_buffer_overflow
+
+```
+
+```
 $ ./out/a.out heap_leak
 int heap_leak()10086
 
