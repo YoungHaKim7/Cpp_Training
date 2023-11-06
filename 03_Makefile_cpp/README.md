@@ -26,6 +26,11 @@ echo "\x09\x09mv *.s ./out" >> Makefile &&
 echo "\x09\x09mv *.out ./out" >> Makefile &&
 echo "" >> Makefile &&
 
+echo "obj:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out" >> Makefile &&
+echo "\x09\x09g++ -std=c++2b -Wall -Wextra -ggdb -c ./src/main.cpp" >> Makefile &&
+echo "\x09\x09objdump --disassemble -S -C ./out/main.o" >> Makefile &&
+echo "" >> Makefile &&
+
 echo "clean:" >> Makefile &&
 echo "\x09\x09rm -rf ./out" >> Makefile &&
 echo "" >> Makefile &&
