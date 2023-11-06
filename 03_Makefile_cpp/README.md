@@ -60,7 +60,7 @@ echo "*.lib\xa" >> .gitignore &&
 echo "# Executables" >> .gitignore &&
 echo "*.exe" >> .gitignore &&
 echo "*.out" >> .gitignore &&
-echo "*.app\xa" >> .gitignore &&
+echo "*.app\xa" >> .gitignore
 
 ```
 
