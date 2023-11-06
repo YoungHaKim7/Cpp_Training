@@ -4,11 +4,11 @@
 echo "r:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out\xa\x09\x09g++ -pthread -lm -Wall -Wextra -ggdb -o out/main src/main.cpp" >> Makefile &&
 echo "\x09\x09./out/main\xa" >> Makefile &&
 
-echo "b:\xa\x09\x09mkdir out" >> Makefile &&
+echo "b:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out" >> Makefile &&
 echo "\x09\x09g++ -c -pthread -lm -Wall -Wextra -ggdb src/main.cpp -o out/main" >> Makefile &&
 echo "" >> Makefile &&
 
-echo "ll:\xa\x09\x09mkdir out" >> Makefile &&
+echo "ll:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out" >> Makefile &&
 echo "\x09\x09cp -rf ./src/main.cpp ./." >> Makefile &&
 echo "\x09\x09clang++ -S -emit-llvm -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -L /usr/lib/gcc/x86_64-linux-gnu/11 main.cpp" >> Makefile &&
 echo "\x09\x09mv *.ll ./out/." >> Makefile &&
@@ -17,7 +17,7 @@ echo "\x09\x09mv *.out ./out/." >> Makefile &&
 echo "\x09\x09rm -rf *.out" >> Makefile &&
 echo "" >> Makefile &&
 
-echo "as:\xa\x09\x09mkdir out" >> Makefile &&
+echo "as:\xa\x09\x09rm -rf out\xa\x09\x09mkdir out" >> Makefile &&
 echo "\x09\x09cp -rf ./src ./out" >> Makefile &&
 echo "\x09\x09g++ -Wall -save-temps ./out/main.cpp" >> Makefile &&
 echo "\x09\x09mv *.ii ./out" >> Makefile &&
